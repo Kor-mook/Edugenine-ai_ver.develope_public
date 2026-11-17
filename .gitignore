@@ -1,0 +1,61 @@
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local Python environments and packaging output
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Secrets and local editor/OS settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Personal learning records and private input files
+/outputs/
+/materials/
+/private/
+/local/
+/data/private/
+*.log
+
+# Local model weights and training artifacts
+/models/
+/checkpoints/
+/results/
+/logs/
+/runs/
+/wandb/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+*.keras
+
+# Original presentations and personal source documents
+*.ppt
+*.pptx
+*.pdf
+*.doc
+*.docx
